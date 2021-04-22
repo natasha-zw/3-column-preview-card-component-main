@@ -1,0 +1,52 @@
+body {
+
+	background-color: hsl(0, 0%, 95%);
+	margin: 0;
+	padding: 8% 8%;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+
+}
+
+.left{
+	background-color: hsl(31, 77%, 52%);
+	
+}
+
+.middle {
+	background-color: hsl(184, 100%, 22%);
+	
+}
+
+.right {
+	background-color: hsl(179, 100%, 13%);
+	
+}
+
+img {
+	padding: 30px 50px 10px;
+}
+h1 {
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 700;
+	padding-left: 50px;
+}
+
+p{
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+	padding-left: 50px;
+}
+
+footer { 
+	font-size: 11px; text-align: center; 
+}
+footer a { 
+	color: hsl(228, 45%, 44%); 
+}
