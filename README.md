@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/html-css-BgbxezdWI)
-- Live Site URL: [](https://natasha-zw.github.io/3-column-preview-card-component-main/)
+- Solution URL: [https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/html-css-BgbxezdWI](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/html-css-BgbxezdWI)
+- Live Site URL: [https://natasha-zw.github.io/3-column-preview-card-component-main/](https://natasha-zw.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
