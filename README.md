@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 
-![./frontend-mentor-3-column-card](./screenshot)
+![](./frontend-mentor-3-column-card.png)
 
 ### Links
 
