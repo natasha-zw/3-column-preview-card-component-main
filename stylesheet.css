@@ -1,17 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
 body {
 
 	background-color: hsl(0, 0%, 95%);
 	margin: 0;
-	padding: 8% 8%;
+	padding: 7% 15% 5% 15%;
+}
+
+.component{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	margin: auto;
+	min-height: 100%;
+	max-width: 100%;
+	border-radius: 5px;
 }
 
 .container{
-	display: flex;
-	flex-direction: row;
-	overflow: hidden;
-	margin: 0 auto;
-	width: 80%;
+	/*max-width: 50vh;*/
+	flex: 1;
 
+	
 }
 
 .left{
@@ -22,31 +38,87 @@ body {
 .middle {
 	background-color: hsl(184, 100%, 22%);
 	
+	
 }
 
 .right {
 	background-color: hsl(179, 100%, 13%);
+
+
 	
 }
 
+.button-left, .button-middle, .button-right{
+	font-size: 16px;
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+	background-color: white;
+	border: none;
+	border-radius: 30px;
+	margin: 70px 50px 50px 50px;
+	padding: 15px 30px;
+  	text-align: center;
+  	transition-duration: 0.4s;
+
+}
+.button-left{
+	color: hsl(31, 77%, 52%);
+}
+.button-middle{
+	color: hsl(184, 100%, 22%);
+}
+.button-right{
+	color: hsl(179, 100%, 13%);
+}
+
+.button-left:hover, .button-middle:hover, .button-right:hover {
+	background-color: hsla(0, 0%, 0%, 0);
+	color: white;
+	border:solid 1px white;
+
+}
+
 img {
-	padding: 30px 50px 10px;
+	padding: 35px 50px 30px;
 }
 h1 {
 	font-family: 'Big Shoulders Display', cursive;
 	font-weight: 700;
 	padding-left: 50px;
+	padding-bottom: 20px;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: white;
 }
 
 p{
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight: 400;
+	padding-top: 10px;
 	padding-left: 50px;
+	padding-right: 70px;
+	color: white;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.footer{
+	color: black;
 }
 
 footer { 
-	font-size: 11px; text-align: center; 
+	font-size: 11px; 
+	text-align: center; 
 }
 footer a { 
 	color: hsl(228, 45%, 44%); 
+}
+@media (max-width: 800px) {
+	.left, .middle, .right{
+		flex: 100%;
+	}
+	body{
+		padding-top: 20%;
+	}
+
 }
